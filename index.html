@@ -38,6 +38,9 @@
                         <a href="#vad-kunder-tycker" class="nav-link">Vad kunder tycker</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#om-oss" class="nav-link">Om Oss</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#footer" class="nav-link">Sociala Medier</a>
                     </li>
                 </ul>
@@ -49,18 +52,26 @@
         <!-- This section contains the banner images -->
         <section>
             <div class="container-fluid" id="main-image" title="Forest image">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 banner-content">
+                        <h1 class="banner-heading"></h1>
+                        <p class="banner-text">
+
+                        </p>
+
+                    </div>
+                </div>
             </div>
 
         </section>
 
         <section>
             <div class="container jumbotron">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="section-heading">En rubrik</h1>
-                        <p class="copy-text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam iste blanditiis optio
-                            commodi dignissimos cumque voluptatum quisquam in molestiae pariatur.
+                <div class="row justify-content-center" id="main-headline">
+                    <div class="col-lg-6">
+                        <h1 class="banner-heading">Salata</h1>
+                        <p class="banner-text">
+                            En salladsdressing för dig som vill ha en snabb, hälsosam och god sallad i din vardag.
                         </p>
                     </div>
                 </div>
@@ -76,7 +87,7 @@
                 </div>
                 <div class="row justify-content-center product-cards">
                     <div class="col-lg-4">
-                        <h2>Produkt 1</h2>
+                        <h2 class="section-heading">Produkt 1</h2>
                         <img class="product-bild" src="assets/images/salata1.png" alt="Salads dressing">
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laudantium consectetur natus.
@@ -84,7 +95,7 @@
                         </p>
                     </div>
                     <div class="col-lg-4">
-                        <h2>Produkt 2</h2>
+                        <h2 class="section-heading">Produkt 2</h2>
                         <img class="product-bild" src="assets/images/salata2.png" alt="Salads dressing">
                         <p>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error modi nisi eligendi
@@ -114,81 +125,56 @@
             </div>
         </section>
 
-        <!-- <section>
-            <div class="container jumbotron">
+        <!-- Customer review section -->
+        <section id="vad-kunder-tycker">
+            <div class="container jumbotron gray-background">
                 <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="section-heading">Beställ</h1>
+                    <div class="col-lg-6">
+                        <h2 class="section-heading margin-bottom">Vad kunder tycker</h2>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center product-cards">
+                    <div class="col-lg-4">
+                        <img src="assets/images/girl-image-small.jpg" alt="Girl image"
+                            class="rounded-circle mr-3 customer-image">
                         <p class="copy-text">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam iste blanditiis optio
-                            commodi dignissimos cumque voluptatum quisquam in molestiae pariatur.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laudantium consectetur natus.
+                            Eum ipsa in officiis doloribus odit iusto exercitationem?
                         </p>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="section-heading">Kontakt</h1>
+                    <div class="col-lg-4">
+                        <img src="assets/images/guy-image-small.jpg" alt="Guy image"
+                            class="rounded-circle mr-3 customer-image">
                         <p class="copy-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur aut, nostrum eveniet
-                            fuga amet, a doloremque harum facere nam, consectetur quae! Repellendus sed consequuntur
-                            alias possimus quia facere sunt asperiores.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error modi nisi eligendi
+                            necessitatibus deserunt est quia quae! Quae, nihil temporibus.
                         </p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section class="container gray-background jumbotron" id="vad-kunder-tycker">
-            <h2 class="section-heading">Vad kunder tycker</h2>
-            <div class="container-wrapper">
-                <div class="container quotes-container content-container">
-                    <div class="quotes">
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <div class="media">
-                                    <div>
-                                        <img src="assets/images/girl-image-small.jpg" alt="Girl image"
-                                            class="rounded-circle mr-3 customer-image">
-                                    </div>
-                                    <div class="media-body">
-                                        <blockquote class="blockquote">
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-                                                optio, fuga libero perferendis consectetur dolores facere, corrupti
-                                                quidem necessitatibus facilis asperiores illo aspernatur architecto
-                                                incidunt cupiditate non impedit. Alias, nulla.
-                                            </p>
-                                            <p>- Isabella Lopez</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-6">
-                                <div class="media">
-                                    <div class="">
-                                        <img src="assets/images/guy-image-small.jpg" alt="Guy image"
-                                            class="rounded-circle mr-3 customer-image">
-                                    </div>
-                                    <div class="media-body">
-                                        <blockquote class="blockquote">
-                                            <p>
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore cum
-                                                magni est, dicta aliquid quos earum laboriosam sapiente, error, magnam
-                                                aliquam ipsam suscipit? Magni, quia.
-                                            </p>
-                                            <p>- Gabriel Diaz</p>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
+
+    <!-- About us section -->
+
+    <section id="om-oss">
+        <div class="container">
+            <div class="row justify-content-center" id="produkter">
+                <div class="col-lg-8">
+                    <h1 class="section-heading">Om oss</h1>
+                    <p class="copy-text">
+                        Vi är ett UF företag som skapat en salladsdressing för dig som vill ha en snabb, hälsosam och
+                        god sallad i din vardag.
+                    </p>
+                    <p class="banner-text">
+                        Vill du beställa? Skicka ett mail till oss så fixar vi det.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer id="footer">
         <!-- I got the code for this footer from folloing the instructions for the Love running web-site assignment. -->
