@@ -92,7 +92,6 @@ body {
 .margin-bottom{
     margin-bottom: 40px;
 }
-
 /* ------------------------------------ Headings -------------------------------- */
 
 
@@ -127,64 +126,6 @@ body {
 
 .card-border {
     border: none;
-}
-
-#modal-lavender {
-    background: url('../images/lavender.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#modal-eucalyptus {
-    background: url('../images/eucalyptus.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#modal-citronella {
-    background: url('../images/yellow-flowers.jpg') no-repeat center center;
-    background-size: cover;
-}
-/* ----------------------------- Newsletter Sign-up ----------------------- */
-
-.sign-up-margin {
-    margin-top: 30px;
-    padding: 20px;
-}
-
-.newsletter-form {
-    display: block;
-}
-
-.input-field-margin {
-    margin: 15px;
-}
-
-.newsletter-background {
-    background-color: #c3aed6;
-}
-
-.modal-headline {
-    color: #393b44;
-}
-/* ----------------------------- Contact-form ----------------------- */ 
-
-.contact-form{
-    margin-top: 100px;
-    padding: 20px;
-}
-
-.contact-form-header {
-    text-align: center;
-}
-
-address {
-    margin-top: 50px;
-}
-
-.contact-form-social-links i {
-    font-size: 160%;
-    margin-top: 25px;
-    padding: 4%;
-    color: #131111;
 }
 
 /* ----------------------------- Footer ----------------------- */
