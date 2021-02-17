@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #fff;
+    position: relative;
+    padding-bottom: 228px;
+    min-height: 100vw;  
+    margin: 0%;  
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+/* ------------------------------------ banner and logo images -------------------------------- */
+
+
+#main-image {
+    width: 100%;
+    padding-top: 42%;
+    background: url('../images/salata-banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#mobile-main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/mobile-banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#flowers-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/flowers.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#sunrise-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/sunrise.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#bamboo-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/bamboo.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#contact-page-image {
+    width: 100%;
+    padding-top: 22%;
+    background: url('../images/water.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* ------------------------------------ General  -------------------------------- */
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.copy-text {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.gray-background{
+    background-color: #e8e8e8;
+}
+
+.button-position-center {
+   text-align: center;
+}
+
+/* ------------------------------------ Headings -------------------------------- */
+
+
+.section-heading {
+    text-align: center;
+    padding: 2%;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+/* ----------------------------- what customers say section ----------------------- */
+
+.customer-image {
+    width: 100px;
+    height: 100px;  
+}
+
+/* ----------------------------- Products page ----------------------- */
+
+#products-section {
+    margin: 30px; 
+}
+
+.card-padding {
+    padding: 40px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-border {
+    border: none;
+}
+
+#modal-lavender {
+    background: url('../images/lavender.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#modal-eucalyptus {
+    background: url('../images/eucalyptus.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#modal-citronella {
+    background: url('../images/yellow-flowers.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* ----------------------------- Newsletter Sign-up ----------------------- */
+
+.sign-up-margin {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.newsletter-form {
+    display: block;
+}
+
+.input-field-margin {
+    margin: 15px;
+}
+
+.newsletter-background {
+    background-color: #c3aed6;
+}
+
+.modal-headline {
+    color: #393b44;
+}
+/* ----------------------------- Contact-form ----------------------- */ 
+
+.contact-form{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.contact-form-header {
+    text-align: center;
+}
+
+address {
+    margin-top: 50px;
+}
+
+.contact-form-social-links i {
+    font-size: 160%;
+    margin-top: 25px;
+    padding: 4%;
+    color: #131111;
+}
+
+/* ----------------------------- Footer ----------------------- */
+
+footer {
+    width: 100%;
+    color: #fafafa;
+    background-color: #393b44;
+    position: absolute;
+    bottom: 0;   
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links li {
+    display:inline;
+}
+
+.social-links i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 4%;
+    color: #777777;
+}
