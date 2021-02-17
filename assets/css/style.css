@@ -21,40 +21,6 @@ body {
     background-size: cover;
 }
 
-#mobile-main-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/mobile-banner.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#flowers-image {
-    width: 100%;
-    padding-top: 22%;
-    background: url('../images/flowers.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#sunrise-image {
-    width: 100%;
-    padding-top: 22%;
-    background: url('../images/sunrise.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#bamboo-image {
-    width: 100%;
-    padding-top: 22%;
-    background: url('../images/bamboo.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#contact-page-image {
-    width: 100%;
-    padding-top: 22%;
-    background: url('../images/water.jpg') no-repeat center center;
-    background-size: cover;
-}
 /* ------------------------------------ General  -------------------------------- */
 
 .jumbotron {
@@ -72,6 +38,24 @@ body {
 
 .button-position-center {
    text-align: center;
+}
+
+.salata-logo {
+    color: green;
+    text-decoration: none;
+}
+
+.product-bild {
+    height: 150px;
+    width: 150px;
+}
+
+.product-cards {
+    text-align: center;
+}
+
+.product-cards img {
+    margin-bottom: 20PX;
 }
 
 /* ------------------------------------ Headings -------------------------------- */
